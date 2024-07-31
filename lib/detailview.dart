@@ -13,7 +13,9 @@ class DetailVIew extends StatelessWidget {
   Widget build(BuildContext context) {
     // Use this.image to access the passed data and display details
     return Scaffold(
+      
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 190, 218, 231),
         title: Center(child: Text('Photo $index Full View')),
       ),
